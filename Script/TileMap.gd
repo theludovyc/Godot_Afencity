@@ -34,9 +34,5 @@ func _ready():
 	pass # Replace with function body.
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	if Input.is_action_pressed("mouse_left_button"):
-		var v = world_to_map(get_global_mouse_position())
-		print(v)
-		set_cell(v.x, v.y, -1)
-	pass
+#func _process(delta):
+#	pass

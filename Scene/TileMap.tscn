@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Asset/grass.png" type="Texture" id=1]
 [ext_resource path="res://Asset/forest.png" type="Texture" id=2]
 [ext_resource path="res://Asset/water.png" type="Texture" id=3]
+[ext_resource path="res://Asset/ground_green.png" type="Texture" id=4]
 
 [node name="TileMap" type="Node"]
 
@@ -20,3 +21,7 @@ texture = ExtResource( 3 )
 vframes = 3
 hframes = 4
 frame = 6
+
+[node name="Sprite4" type="Sprite" parent="."]
+position = Vector2( 119.562, 0.397217 )
+texture = ExtResource( 4 )
