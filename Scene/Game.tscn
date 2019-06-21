@@ -15,6 +15,7 @@ format = 1
 script = ExtResource( 2 )
 
 [node name="TileMap2" type="TileMap" parent="."]
+visible = false
 mode = 1
 tile_set = ExtResource( 1 )
 cell_size = Vector2( 32, 16 )
